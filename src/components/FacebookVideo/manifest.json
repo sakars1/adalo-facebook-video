@@ -1,0 +1,30 @@
+{
+  "displayName": "Facebook Video",
+  "defaultWidth": 320,
+  "defaultHeight": 250,
+  "resizeX": true,
+  "resizeY": true,
+  "components": "./index.js",
+  "icon": "./thumbnail.png",
+  "props": [
+    {
+      "name": "appId",
+      "displayName": "App ID",
+      "type": "text",
+      "HelpText": "get your own app id from https://developers.facebook.com/",
+      "default": "2407709036198676"
+    },
+    {
+      "name": "videoId",
+      "displayName": "Video ID",
+      "type": "text",
+      "default": "1127684924266163"
+    },
+    {
+      "name": "autoPlay",
+      "displayName": "Auto Play",
+      "type": "boolean",
+      "default": true
+    }
+  ]
+}
