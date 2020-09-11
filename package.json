@@ -1,7 +1,7 @@
 {
   "name": "pd-facebook-video",
   "description": "A simple component to embed facebook video",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "ISC",
   "author": "sakar",
